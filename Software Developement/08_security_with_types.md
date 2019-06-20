@@ -89,5 +89,12 @@
       - z.B.: `' UNION SELECT username, password FROM users --`
     - Schädlichen Code für XSS um JavaScript in die Profileseite zu schmuggeln
       - z.B.: `<script src='http://attacker.com/malware.js />'`$
-  - 
+
+## Types and Security
+
+- Custom Types mit strikten Bedingungen (constraints) können...
+  - ... Verhindern, dass schadhafter input akzeptiert wird und an Controllers oder Serverice APIs weitergegeben werden
+  - ... im Gegensatz zur simplen Validierung, garantieren, dass Daten durch den ganzen lifecycle valide sind (nicht nur an einem bestimmten validierungspunkt)
+  - Dies benötigt ein starke typisiertes System, so, dass das System nicht von impliziten Typumwandlungen untergraben werden kann
+  - Wenn das Type System in einer Applikation statisch ist, so werden diese Dinge auch zur compilierzeit validiert
 

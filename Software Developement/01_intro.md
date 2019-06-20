@@ -25,7 +25,7 @@ Im Folgenden werden ein paar interessante Beispiele aus der Praxis gezeigt. Ich 
 
 ### Apple goto fail
 
-!["apple fail"](C:\Users\rapha\switchdrive\Studium\Module\Semester 6\SPRG\Zusammenfassung\Software Developement\img\apple_fail.png)
+!["apple fail"](img\apple_fail.png)
 
 - Auf der Abbildung oben sind 2 goto Statements nacheinander zu sehen. Bei der Programmiersprache C können bei if-Statements die geschweiften Klammern {} weggelassen werden, sofern nur 1 Statement ausgewertet wird.
 - Hier sind allerdings 2 goto Statements nacheinander. Das bedeutet, dass erste wird nur ausgeführt, wenn das if-Statement als wahr ausgewertet wird. Das zweite wird allerdings **immer** ausgeführt.
